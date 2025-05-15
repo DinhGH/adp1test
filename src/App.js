@@ -39,7 +39,7 @@ function App() {
         setResult(`Số lớn nhất là: ${Math.max(...numbers)}`);
         break;
       case 'min':
-        // setResult(`Số nhỏ nhất là: ${Math.min(...numbers)}`);
+        setResult(`Số nhỏ nhất là: ${Math.min(...numbers)}`);
         break;
       case 'sum':
         // const sum = numbers.reduce((acc, cur) => acc + cur, 0);
