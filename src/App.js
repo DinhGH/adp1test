@@ -36,7 +36,7 @@ function App() {
 
     switch (type) {
       case 'max':
-        // setResult(`Số lớn nhất là: ${Math.max(...numbers)}`);
+        setResult(`Số lớn nhất là: ${Math.max(...numbers)}`);
         break;
       case 'min':
         // setResult(`Số nhỏ nhất là: ${Math.min(...numbers)}`);
